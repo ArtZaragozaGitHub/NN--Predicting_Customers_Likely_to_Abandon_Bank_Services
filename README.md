@@ -52,3 +52,35 @@ Additional Observations from the Exploratory Data Analysis (EDA):
   
 ![my_nn](https://github.com/user-attachments/assets/b5609ff1-a37a-49d9-be52-48bfde21e6b2)
 
+# We will design 5 NN models, train them and then fine-tune the best one.
+
+![models_to_train](https://github.com/user-attachments/assets/b17887f2-024a-4dc2-b3a1-f268431d2e87)
+
+Some examples from intermediate results: Only Model 0 anf Model 5 are shown here. The entire set of models 0--5 is in the python notebook in the repository.
+
+Model 0 - Layers Summary:
+
+![model_0](https://github.com/user-attachments/assets/f801ba1a-a5b5-4f21-9ea6-4628c7f192ad)
+
+Loss comparison for Training vs Validation data:
+
+![model_0_loss](https://github.com/user-attachments/assets/f68fff9c-d996-473e-90b6-0d561eccf996)
+
+Model 5 - Layers Summary:
+
+![model_5](https://github.com/user-attachments/assets/e318382b-9143-4188-bc85-0dbc5c50cb78)
+
+Loss comparison for Training vs Validation data:
+
+![model_5_loss](https://github.com/user-attachments/assets/026760ba-5596-47f2-9065-0b0d06466655)
+
+Summary of all the models performance metrics:
+
+![Model Optimizations](https://github.com/user-attachments/assets/878ae61a-b7a3-419f-aff0-44d5cbd4df4e)
+
+![best_model_performance](https://github.com/user-attachments/assets/23b04736-847e-45dc-b1a9-35b9f93ded0a)
+
+After fine-tuning and optimizing the best trained model, it can be further used to make more accurate predictions:
+
+![recommendations_for_predictions](https://github.com/user-attachments/assets/07f97b69-5b32-46c3-9f61-205f85c8a924)
+
